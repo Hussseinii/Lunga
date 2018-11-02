@@ -427,7 +427,7 @@ public class ObligSBinTre<T> implements Beholder<T>
             bladnoderverdier(p.venstre, txt);
         if (p.hoyre != null)
             bladnoderverdier(p.hoyre, txt);
-          if(p.venstre == null && p.hoyre != null)
+          if(p.venstre == null && p.hoyre == null)
             txt.add(p.verdi.toString());
 
     }
